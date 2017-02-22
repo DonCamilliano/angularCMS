@@ -1,0 +1,9 @@
+<div ng-controller="cmsController" class="container">
+    <div ng-repeat="articles in data" class="row">
+        <div class="col-md-6">
+            <h2>{{articles.title}}</h2>
+            <p>{{articles.summary}}</p>
+            <a href="html/article.html?id={{articles.id}}">Czytaj więcej...</a>
+        </div>
+    </div>
+</div>
